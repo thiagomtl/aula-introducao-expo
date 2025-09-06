@@ -11,10 +11,10 @@ const styles = StyleSheet.create({
     },
     titulo: {
         fontSize: RFPercentage(3),
-        color: 'deepskyblue',
+        color: 'red',
         fontWeight: 'bold',
-        borderWidth: 2,
-        borderColor: 'deepskyblue',
+        borderWidth: 5,
+        borderColor: 'black',
         marginTop: 10,
         marginBottom: 10,
         padding: 8,
@@ -22,13 +22,12 @@ const styles = StyleSheet.create({
         height: 80,
         textAlign: 'center',
         textAlignVertical: 'center',
-        borderRadius: 20,
+        borderRadius: 40,
     },
     imagem: {
-        //height: RFPercentage(10),
-        //width: RFPercentage(28),
-        width:'80%',
-        resizeMode:'contain',
+        height: RFPercentage(1.0),
+        width: RFPercentage(2.8),
+        resizeMode: 'stretch',
     },
 });
 
