@@ -22,14 +22,7 @@ export default function Exemplo03() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}>Atividade 3</Text>
-            <Button
-                onPress={() => { alert('Alguém tocou no botão!') }}
-                title='Alerta'
-                color='#777'
-                accessibilityLabel='Botão de alerta'
-            />
-        
+            <Text style={styles.titulo}>Atividade 3</Text>        
 
             <View style={styles.containerbotao}>
                 <TouchableOpacity
