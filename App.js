@@ -7,13 +7,13 @@ import Constants from 'expo-constants';
 // import Exemplo02 from './src/exemplos/ex02';
 // import Exemplo03 from './src/exemplos/ex03';
 // import AtividadeCamisa from './src/Atividades/AtividadeCamisa'
-import Exemplo04 from './src/exemplos/ex04';
-
+//import Exemplo04 from './src/exemplos/ex04';
+import Atividade4 from './src/Atividades/Atividade4';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo04/>
+      <Atividade4/>
       <StatusBar style="auto" />
     </View>
   );
