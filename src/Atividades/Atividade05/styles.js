@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     txtEntrada: {
         borderWidth: 1,
         textAlign: 'center',
-        fontSize: 18,
+        fontSize: 15,
         borderColor: '#E91E63',
         height: 40,
         color: 'black',
@@ -41,10 +41,17 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     textLabel: {
-        fontSize: RFPercentage(3),
+        fontSize: RFPercentage(1),
         fontWeight: 'bold',
-        color: '#C51162',
+        color: '#0a0909ff',
         marginBottom: 4
     },
+    paragraph: {
+        margin: 24,
+        fontSize: RFPercentage(4),
+        fontWeight: 'bold',
+        textAlign: 'center',
+        color: 'white',
+    }, 
 });
 export default styles;
