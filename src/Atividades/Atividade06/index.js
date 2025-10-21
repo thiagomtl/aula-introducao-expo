@@ -17,15 +17,15 @@ export default function Atividade06() {
         let cat = '';
         if (valor < 18.5) {
             cat = 'Abaixo do peso';
-        } else if (valor < 25) {
+        } else if (18.5 <= valor < 24.9) {
             cat = 'Peso normal';
-        } else if (valor < 30) {
+        } else if (25 <= valor < 29.9) {
             cat = 'Sobrepeso';
-        } else if (valor < 35) {
+        } else if (30 <= valor < 34.9) {
             cat = 'Obesidade grau 1';
-        } else if (valor < 40) {
+        } else if (35 <= valor < 39.9) {
             cat = 'Obesidade grau 2';
-        } else {
+        } else { valor >= 40
             cat = 'Obesidade grau 3';
         }
         setCategoria(cat);
