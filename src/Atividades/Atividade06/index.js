@@ -36,28 +36,31 @@ export default function Atividade06() {
             <Text style={styles.paragraph}>Atividade 06</Text>
             <View style={styles.entradaImc}>
 
-            <TextInput
-                placeholder='Massa'
-                placeholderTextColor={'lightgray'}
-                keyboardType='numeric'
-                style={styles.input}
-                onChangeText={(entrada) => setMassa(parseFloat(entrada))}
-            />
+                <TextInput
+                    placeholder='Massa'
+                    placeholderTextColor={'lightgray'}
+                    keyboardType='numeric'
+                    style={styles.input}
+                    onChangeText={(entrada) => setMassa(parseFloat(entrada))}
+                />
 
-            <TextInput
-                placeholder='Altura'
-                placeholderTextColor={'lightgray'}
-                keyboardType='numeric'
-                style={styles.input}
-                onChangeText={(entrada) => setAltura(parseFloat(entrada))}
-            />
+                <TextInput
+                    placeholder='Altura'
+                    placeholderTextColor={'lightgray'}
+                    keyboardType='numeric'
+                    style={styles.input}
+                    onChangeText={(entrada) => setAltura(parseFloat(entrada))}
+                />
             </View>
-            <TouchableOpacity
-                style={styles.botao}
-                onPress={() => Calcular()}
-            >
-                <Text style={styles.txtBotao}>Calcular</Text>
-            </TouchableOpacity>
+            <View style={styles.botaoWrapper}>
+                <TouchableOpacity
+                    style={styles.botao}
+                    onPress={() => Calcular()}
+                >
+                    <Text style={styles.txtBotao}>Calcular</Text>
+                </TouchableOpacity>
+            </View>
+
 
             <Text style={styles.txt}>{resultado !== null ? resultado.toFixed(2) : ''}</Text>
             <Text style={styles.resultado}>{categoria}</Text>

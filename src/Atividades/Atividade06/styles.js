@@ -16,7 +16,7 @@ const styles = StyleSheet.create(
             margin: RFPercentage(5),
         },
         txt: {
-            fontSize: RFPercentage(2.5),
+            fontSize: RFPercentage(10),
         },
         input: {
             height: 80,
@@ -28,6 +28,15 @@ const styles = StyleSheet.create(
         },
         botao:{
             backgroundColor: '#89FFA5',
+            borderRadius: 15,
+            paddingHorizontal: 20,
+            paddingVertical: 10,
+        },
+        botaoWrapper:{
+            width: '100%',
+            height: RFPercentage(40),
+            justifyContent: 'center',
+            alignItems: 'center',
         },
         txtBotao:{
             alignSelf: 'center',
@@ -43,7 +52,7 @@ const styles = StyleSheet.create(
         resultado:{
             alignSelf: 'center',
             color: 'lightgray',
-            fontSize: 65,
+            fontSize: 40,
             padding: 15,
     },
 });
